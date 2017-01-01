@@ -1,0 +1,243 @@
+body {
+	background-image: url("https://subtlepatterns.com/patterns/frenchstucco.png");
+	}
+	
+h1 {
+	text-align:center;
+	font-family:'Crete Round', serif;
+	font-size:70px;
+	color:#0e2c54;
+
+}
+
+div{
+    width:379px;
+    border: 1px solid #d1d3d6;
+    padding:1px;
+    margin-left:10px;
+	margin-right:0px;
+	float:right;
+	height:219px;
+	margin-right:20px;
+}
+
+.introducere {
+	font-family:'Roboto Condensed', sans-serif;
+	padding-top:2px;
+	color:#2b2c2d;
+	word-spacing:2.7px;
+	font-size:18px;
+	margin-top:20px;
+	
+}
+
+.poze {
+	border-radius:5%;
+	max-width:45%;
+	height:350px;
+	margin-top:20px;
+}
+
+#poza {
+	margin-right:90px;
+	margin-left:1px;
+}
+
+#poza1 {
+	margin-right:1px;
+	margin-left:20px;
+}
+
+#poza2 {
+	margin-right:90px;
+	margin-left:1px;
+}
+
+#poza3 {
+	margin-right:1px;
+	margin-left:35px;
+}
+#vechi {
+	text-align:center;
+	margin-top:100px;	
+}
+
+#veche {
+	height:500px;
+	width:900px;
+	display:block;
+	margin:auto;
+	border-radius:1%;
+	
+}
+
+figcaption {
+	text-align:center;
+}
+
+h2 {
+	color:#0e2c54;
+	font-family:'Antic Slab', serif;
+	font-size:50px;
+	margin-bottom:0px;
+}
+
+#locatie {
+	margin-top:10px;
+}
+
+.locatii  {
+	color:rgb(70, 181, 175);
+	font-family: 'Coda', cursive;
+	font-size:30px;
+	margin-bottom:0px;
+	text-align:center;
+	margin-top:50px;
+}
+
+.libertate {
+	max-width:100%;
+	height:auto;
+	display:block;
+	border-radius:1%;
+}
+
+.textlibertate {
+	border-left:5px solid #25ce3e;
+	width:46%;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:15px;
+	padding-left:5px;
+	margin-bottom:20px
+}
+
+#textulliber1 {
+	float:left;
+}
+
+#textulliber2 {
+	float:right;
+}
+
+.despre {
+	color:#258cd1;
+	text-align:left;
+	font-size:28px;
+	margin-bottom:0px;
+	margin-top:10px;
+}
+
+#origin {
+	border-left:5px solid #258cd1;
+	width:auto;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:15px;
+	padding-left:5px;
+}
+#origin1 {
+		border-left:5px solid #258cd1;
+	width:auto;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:15px;
+	padding-left:5px;
+}
+
+#patent {
+height:auto;
+width:auto;
+border:none;
+float:left;
+margin-top:10px;
+margin-bottom:100px;	
+}
+
+#textpatent {
+	width:700px;
+	height:auto;
+	border-right:5px solid #258cd1;
+	padding-right:10px;
+	float:right;
+	margin-top:10px;
+	padding-left:10px;
+	margin-bottom:40px;
+}
+
+#Empire {
+	font-family: 'Coda', cursive;
+	font-size:30px;
+	margin-bottom:0px;
+	margin-top:50px;
+	text-align:left;
+}
+.textempire {
+	border-left:5px solid #e53757;
+	float:left;
+	width:46%;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:15px;
+	padding-left:5px;
+	margin-bottom:20px;
+	
+}
+
+#istoricempire {
+		border-left:5px solid #754cce;
+	float:left;
+	width:auto;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:15px;
+	padding-left:5px;
+	margin-bottom:20px;
+}
+
+#muncitor {
+	float:left;
+	border:none;
+	width:auto;
+	height:auto;
+	margin-left:0px;
+	padding:0px;
+
+}
+
+#muncitor img {
+	border-radius:1%;
+	height:400px;
+	width:600px;
+}
+
+#textistoric {
+	width:460px;
+	height:auto;
+	border-right:5px solid #754cce;
+	padding-right:10px;
+	float:right;
+	margin-top:5px;
+	padding-left:10px;
+	margin-bottom:40px;
+}
+
+#textistoric1 {
+		width:auto;
+	height:auto;
+	border-left:5px solid #754cce;
+	padding-right:10px;
+	margin-top:5px;
+	padding-left:10px;
+	margin-bottom:40px;
+}
+
+#final {
+	max-width:100%;
+	height:auto;
+}

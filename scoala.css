@@ -1,0 +1,143 @@
+body {
+	margin:0;
+	padding:0;
+	background-image: url("https://s28.postimg.org/907cmqlot/geometry_2_X.png");
+	
+}
+
+.navigare {
+	background-color:grey;
+	list-style:none;
+	text-align:center;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	
+}
+
+.navigare  li {
+	display:inline-block;
+	padding-right:40px;
+	font-family: 'Patua One', cursive;
+	font-size:1.5rem;
+	
+}
+
+.navigare li a {
+	text-decoration:none;
+	color:white;
+}
+
+.navigare li a:hover{
+	color:#a9af92;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Overlock', cursive;
+	margin-top:50px;
+	font-size:90px;
+	color:#4f9ef2;
+	margin-bottom:0px;
+}
+
+h2 {
+	text-align:center;
+	font-family: 'Overlock', cursive;
+	margin-top:1.5px;
+	font-size:40px;
+	color:#5fa5ef;
+	margin-bottom:0px;
+}
+
+#inceput {
+	margin-top:5px;
+	text-align:center;
+	font-family: 'Overlock', cursive;
+	color:#92bae5;
+	margin-bottom:0px;
+}
+
+#introducere {
+	font-family: 'Voces', cursive;
+	text-decoration:underline;
+	text-align:left;
+	margin-top:100px;
+	margin-left:20px;
+	color:#7a7a77;
+	font-size:40px;
+	margin-bottom:0px;
+}
+p {
+	margin-left:20px;
+	margin-top:5px;
+	font-family: 'Balthazar', serif;
+	color:#474a4c;
+	font-size:20px;
+	margin-bottom:0px;
+}
+
+
+.interese li {
+	font-family: 'Balthazar', serif;
+	color:#2d2e30;
+	font-size:17px;
+	margin-top:0px;
+	padding-top:0px;
+	text-decoration:none;
+}
+
+#start {
+	color:#6e81a0;
+	text-align:center;
+	font-family: 'Playfair Display', serif;
+	font-size:3em;
+	margin-bottom:0px;
+}
+
+#start:hover {
+	color:#6fa5c6;
+}
+
+#regiune {
+	text-align:center;
+	font-size:30px;
+	margin-top:10px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom:10px;
+}
+
+#harta {
+	display:block;
+	margin:auto;
+	border-radius:15%;
+	width:auto;
+}
+
+figcaption ul li {
+	display:inline-block;
+	list-style:none;
+padding-right:40px;
+color:#315184;
+font-family: 'Playfair Display', serif;
+}
+
+figcaption ul {
+		text-align:center;
+}
+
+#citat {
+	margin-top:60px;
+	padding-left:0px;
+	text-align:left;
+	color:#253754;
+	font-family:'Mirza', cursive;
+	font-size:25px;
+
+}
+
+#citat cite {
+	color:black;
+	font-size:18px;
+}
