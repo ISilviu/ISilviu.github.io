@@ -10,7 +10,7 @@ body {
 	text-align:center;
 }
 
-#subtitlu {
+.subtitlu {
 	font-family: 'Concert One', cursive;
 	color:rgb(66, 134, 244);
 	font-size:2rem;
@@ -33,20 +33,79 @@ body {
 	
 	letter-spacing:4%;
 }
-	
+
 img {
 	width:100%;
 	height:42rem;
 border-radius:1%;
 }
 
+.adrese {
+	display:inline-block;
+	width:32%;
+	height:auto;
+	
+}
 
-form p {
+#York {
+	border-bottom:4px solid #8E78A2;
+}
+
+#Sydney {
+	border-bottom:4px solid #030921;
+}
+
+#London {
+	border-bottom:4px solid #6877EA;
+}
+
+.adrese p {
 	font-family: 'Forum', cursive;
 	font-size:1.5rem;
 }
 
-form select option p{
+
+form p {
 	font-family: 'Forum', cursive;
 	font-size:1.5rem;
+	color:#0b2042;
+	letter-spacing:0.01rem;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e0eaf9;
+    color: #051630;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius:5%; 
+ background-color: #e0eaf9;
+  margin:8px 0;
+}
+
+textarea {
+	width:99%;
+	height:auto;
+	background-color:#e0eaf9;
+	padding-top:10px;
+	padding-left:8px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: rgb(66, 134, 244);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:3%;
 }

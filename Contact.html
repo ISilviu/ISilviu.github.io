@@ -12,20 +12,35 @@
 <body>
 <h1 id="titlu"> Let's get in touch </h1>
 
-<h2 id="subtitlu"> You can find us in </h2>
+<h2 class="subtitlu"> You can find us in </h2>
 
 <div class="container">
-  <img src="http://hdwallpaper20.com/wp-content/uploads/2016/05/new-york-wallpaper3.jpg" alt="New York"> 
-    <div class="center">New York</div>
+  <img src="http://hdwallpaper20.com/wp-content/uploads/2016/05/new-york-wallpaper3.jpg" alt="New York">  
+   <a href="#York"> <div class="center">New York</div></a>
 </div>
+
 <div class="container">
-  <img src="https://images5.alphacoders.com/370/thumb-1920-370282.jpg" alt="Sydney" "> 
-    <div class="center">Sydney</div>
+  <img src="https://images5.alphacoders.com/370/thumb-1920-370282.jpg" alt="Sydney"> 
+    <a href="#Sydney"><div class="center">Sydney</div></a>
 </div>
 <div class="container">
   <img src="http://tremendouswallpapers.com/wp-content/uploads/2014/12/London-wallpaper-30.jpg" alt="London" > 
-    <div class="center">London</div>
+    <a href="#London"><div class="center">London</div></a>
 </div>
+
+<div id="York" class="adrese"><p> 109 Hollywood Avenue <br>
+New York <br>
+B35 4HE </p> </div>
+			
+<div id="Sydney" class="adrese"><p> 421 Kangaroo Avenue <br>Sydney <br> B40 10HD </p> </div>
+<div id="London" class="adrese"><p> 301 Baker Street<br>London <br> B10 23HD</p> </div>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<h2 class="subtitlu"> Or you can contact us </h2>
+<form action="formular.php" method="post">
 
 
 <p>First name : <input type="text" name="firstname" placeholder="Enter your first name"></p>
@@ -47,9 +62,13 @@
 	<option value="8"> <p> Italy </p> </option>
 	</select> </p>
 	
-<p><textarea name="message" rows="10" cols="32">
-Tell us your intentions 
-</textarea>
+
+
+	
+<p><textarea name="message" rows="10" cols="32" placeholder="Don't be shy.">
+</textarea></p>
+
+<div align="center"><p> <input type="submit" value="Submit"> <input type="reset" value="Reset"> </p> </div>
 
 
 </form>
@@ -59,7 +78,7 @@ Tell us your intentions
 
 
 
-
+<div align="right"><p> &copy YorkField inc. </p></div>
 
 
 
