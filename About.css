@@ -1,0 +1,42 @@
+body {
+	background-image:url("https://subtlepatterns.com/patterns/photography.png");
+}
+
+h1 {
+	font-family:'Comfortaa', cursive;
+	color:rgb(21, 105, 239);
+	text-align:center;
+	font-size:4rem;
+}
+
+h2 {
+	font-family:'Comfortaa', cursive;
+	color:#497dd1;
+	text-align:center;
+	font-size:2rem;
+}
+
+.subtitlu {
+	font-family:'Arima Madurai', cursive;
+	font-size:3rem;
+	color:#06a03e;
+	text-indent:0.2rem;
+}
+
+.text {
+	border-left:3px solid #06a03e;
+	padding-left:0.6rem;
+}
+
+.despre {
+	font-family: 'Mirza', cursive;
+	font-size:1.2rem;
+	letter-spacing:0.3px;
+}
+
+.pasiuni {
+	display:inline-block;
+	width:33.1%;
+	height:15rem;
+	border-radius:1.1%;
+}

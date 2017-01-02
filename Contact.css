@@ -109,3 +109,8 @@ input[type=submit], input[type=reset] {
     cursor: pointer;
 	border-radius:3%;
 }
+
+#copyright {
+	font-family:'Balthazar', serif;
+	font-size:1.3rem;
+}
