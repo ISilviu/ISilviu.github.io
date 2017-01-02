@@ -2,8 +2,58 @@ body {
 	background-image:url("http://maxcdn.thedesigninspiration.com/wp-content/uploads/2013/02/Skeletal-Weave-l.jpg");
 }
 
-h1 {
+
+#titlu {
 	font-family: 'Concert One', cursive;
 	color:rgb(66, 134, 244);
-	font-size:10rem;
+	font-size:5rem;
+	text-align:center;
+}
+
+#subtitlu {
+	font-family: 'Concert One', cursive;
+	color:rgb(66, 134, 244);
+	font-size:2rem;
+	text-align:center;
+}
+
+.container {
+	position:relative;
+}
+
+.center {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size:80px;
+	color:white;
+	font-family: 'Concert One', cursive;
+	
+	letter-spacing:4%;
+}
+	
+img {
+	width:100%;
+	height:auto;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+border-radius:1%;
+}
+
+.adresa {
+	font-size:20px;
+	color:#335177;
+	font-family:'Concert One', cursive;
+	text-align:center;
+}
+
+form p {
+	font-family: 'Forum', cursive;
+	font-size:1.5rem;
+}
+
+form select option p{
+	font-family: 'Forum', cursive;
+	font-size:1.5rem;
 }
