@@ -44,7 +44,7 @@ h2 {
 .pasiuni {
 	display:inline-block;
 	width:33%;
-	height:13rem;
+	height:15rem;
 	border-radius:1%;
 	
 }
@@ -64,3 +64,19 @@ h2 {
 #caseta2 {
 	border-left:3px solid #1accc6;
 }
+
+#dream {
+	max-width:100%;
+	height:auto;
+	border-radius:1%;
+	border-bottom:1px solid black;
+}
+
+#continuat {
+	color:#47b2ff;
+}
+
+#caseta3 {
+	border-left:3px solid #47b2ff;
+}
+
