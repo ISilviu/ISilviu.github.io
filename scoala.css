@@ -13,6 +13,7 @@ body {
 	padding-left:15px;
 	padding-right:15px;
 	padding-bottom:15px;
+	margin-top:0em;
 	
 }
 
@@ -48,15 +49,15 @@ h2 {
 	margin-top:1.5px;
 	font-size:40px;
 	color:#5fa5ef;
-	margin-bottom:0px;
+	margin-bottom:5rem;
 }
 
-#inceput {
-	margin-top:5px;
-	text-align:center;
-	font-family: 'Overlock', cursive;
-	color:#92bae5;
-	margin-bottom:0px;
+.descriere {
+	font-size:20px;
+	font-family:font-family: 'Lora', serif;
+	color:rgb(16, 45, 91);
+	word-spacing:0.4rem;
+	margin-bottom:3rem;	
 }
 
 #introducere {
@@ -92,7 +93,7 @@ p {
 	color:#6e81a0;
 	text-align:center;
 	font-family: 'Playfair Display', serif;
-	font-size:3em;
+	font-size:42px;
 	margin-bottom:0px;
 }
 
@@ -102,7 +103,7 @@ p {
 
 #regiune {
 	text-align:center;
-	font-size:30px;
+	font-size:1.67rem;
 	margin-top:10px;
 	font-family: 'Playfair Display', serif;
 	margin-bottom:10px;
@@ -113,7 +114,6 @@ p {
 	margin:auto;
 	border-radius:15%;
 	width:auto;
-	height:1000px;
 }
 
 figcaption ul li {
@@ -121,7 +121,8 @@ figcaption ul li {
 	list-style:none;
 padding-right:40px;
 color:#315184;
-font-family: 'Playfair Display', serif;
+font-family: 'Overlock', cursive;
+font-size:25px;
 }
 
 figcaption ul {
@@ -141,4 +142,13 @@ figcaption ul {
 #citat cite {
 	color:black;
 	font-size:18px;
+}
+
+.collage {
+	max-width:50%;
+	display:flex;
+	border-radius:0.2%;
+	float:left;
+	border:none;
+	margin-bottom:30px;
 }
