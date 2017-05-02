@@ -112,8 +112,8 @@ p {
 #harta {
 	display:block;
 	margin:auto;
-	border-radius:15%;
-	width:auto;
+	border-radius:10%;
+	max-width:100%;
 }
 
 figcaption ul li {
