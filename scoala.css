@@ -103,7 +103,7 @@ p {
 
 #regiune {
 	text-align:center;
-	font-size:1.67rem;
+	font-size:3rem;
 	margin-top:10px;
 	font-family: 'Playfair Display', serif;
 	margin-bottom:10px;
@@ -112,7 +112,7 @@ p {
 #harta {
 	display:block;
 	margin:auto;
-	border-radius:10%;
+	border-radius:1%;
 	max-width:100%;
 }
 
@@ -120,7 +120,7 @@ figcaption ul li {
 	display:inline-block;
 	list-style:none;
 padding-right:40px;
-color:#315184;
+color:black;
 font-family: 'Overlock', cursive;
 font-size:25px;
 }
@@ -144,11 +144,7 @@ figcaption ul {
 	font-size:18px;
 }
 
-.collage {
-	max-width:50%;
-	display:flex;
-	border-radius:0.2%;
-	float:left;
-	border:none;
-	margin-bottom:30px;
+.admiratie {
+	width:50%;
+	height:23rem;
 }

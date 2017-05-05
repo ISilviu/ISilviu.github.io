@@ -1,6 +1,9 @@
 body {
-	background-image:url("https://subtlepatterns.com/patterns/cork-wallet.png");
+	margin:0;
+	padding:0;
+	background-image:url("https://s17.postimg.org/tf5t87thb/playstation-pattern.png");
 }
+
 
 
 #titlu {
@@ -15,6 +18,35 @@ body {
 	color:rgb(66, 134, 244);
 	font-size:2rem;
 	text-align:center;
+}
+
+.navigare {
+	background-color:grey;
+	list-style:none;
+	text-align:center;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	margin-top:0em;
+	
+}
+
+.navigare  li {
+	display:inline-block;
+	padding-right:40px;
+	font-family: 'Patua One', cursive;
+	font-size:1.5rem;
+	
+}
+
+.navigare li a {
+	text-decoration:none;
+	color:white;
+}
+
+.navigare li a:hover{
+	color:#a9af92;
 }
 
 .container {
