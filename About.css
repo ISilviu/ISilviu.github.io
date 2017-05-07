@@ -58,7 +58,8 @@ h2 {
 }
 
 #caseta1 {
-	border-left:3px solid #06a03e;
+	border-left:5px solid #06a03e;
+	margin-left:0.2%;
 }
 
 .text {
@@ -70,6 +71,7 @@ h2 {
 	font-family: 'Mirza', cursive;
 	font-size:1.2rem;
 	letter-spacing:0.3px;
+	margin-left:0.6%;
 }
 
 .pasiuni {
@@ -109,5 +111,47 @@ h2 {
 
 #caseta3 {
 	border-left:3px solid #47b2ff;
+}
+
+form p {
+	font-family: 'Forum', cursive;
+	font-size:1rem;
+	color:#0b2042;
+	letter-spacing:0.01rem;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:#d2d6d8;
+    color:#051630;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius:5%; 
+ background-color:#d2d6d8;;
+  margin:8px 0;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: rgb(66, 134, 244);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration:none;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:3%;
+}
+
+#copyright {
+	font-family:'Balthazar', serif;
+	font-size:1.3rem;
 }
 

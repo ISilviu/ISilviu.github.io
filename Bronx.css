@@ -1,0 +1,73 @@
+body {
+	margin:0.3px;
+	padding:0;
+	background-image: url("https://s19.postimg.org/c35ehg08z/Sports.png");
+	}
+	
+h1 {
+		text-align:center;
+	font-family: 'Overlock', cursive;
+	margin-top:50px;
+	font-size:90px;
+	color:#61e018;
+	margin-bottom:0px;
+}
+
+.navigare {
+	background-color:grey;
+	list-style:none;
+	text-align:center;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	margin-top:0em;
+	
+}
+
+.navigare  li {
+	display:inline-block;
+	padding-right:40px;
+	font-family: 'Patua One', cursive;
+	font-size:1.5rem;
+	
+}
+
+.navigare li a {
+	text-decoration:none;
+	color:white;
+}
+
+.navigare li a:hover{
+	color:#a9af92;
+}
+
+
+.introducere {
+	font-family:'Roboto Condensed', sans-serif;
+	padding-top:2px;
+	padding-left:0.4%;
+	color:#2b2c2d;
+	word-spacing:2.7px;
+	font-size:20px;
+	margin-top:20px;
+	
+}
+
+.admiratie {
+	width:50%;
+	height:23rem;
+}
+
+#veche {
+	height:30rem;
+	border-radius:0.2%;
+}
+
+h3 {
+	margin-left:0.4%;
+color:#61e018;
+	font-size:2.5rem;
+	font-family: 'Baloo Paaji', cursive;
+}
+
