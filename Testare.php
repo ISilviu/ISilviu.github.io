@@ -25,17 +25,10 @@
 <li><a href="Test.php"> Test </a></li>
 </ul>
 	
-	<form method="post">
+	<form method="POST">
 
 
-<p>Prenume : <input type="text" name="prenume" ></p>
-
-
-<p>Nume :  <input type="text" name="nume"></p>
-
-
-<p>Varsta : <input type="text" name="Varsta"  ></p>
-
+<p>Nume complet : <input type="text" name="n" ></p>
 <p> Care este cel mai dezvoltat district al New York-ului?<select name="Q1"> 
 	<option value="1"> <p>Manhattan  </p> </option> 
 	<option value="2"> <p>Queens </p> </option>
@@ -78,32 +71,42 @@
 
 	
 	
-	<div align="center"><p> <input type="submit" value="Trimite"> <input type="reset" value="Reseteaza"> </p> </div>
+	<div align="center"><p> <input type="submit" value="Punctajul" name="trimite"> <input type="reset" value="Reseteaza"> </p> </div>
 	</form>
-	
-	<?php 
-	if(isset($_POST["submit"]))
-	{$Nume=$_POST["Nume"];
-	$Prenume=$_POST["Nume"];
-	$Q1=$_POST["Q1"];
-	$Q2=$_POST["Q2"];
-	$Q3=$_POST["Q3"];
-	$Q4=$_POST["Q4"];
-	$Q5=$_POST["Q5"];
-	$S=0;
-	if($Q1=="1")
-	$S=$S+1;
-	if($Q2=="4")
-	$S=$S+1;
-	if($Q3=="3")
-	$S=$S+1;
-	if($Q4=="3")
-	$S=$S+1;
-	if($Q5=="5")
-	$S=$S+1;
-	echo "Felicitari ".$Nume."".$Prenume.", rezultatul tau este :".$S." de puncte";
-	}
-	
-	?>
+	<?php
+if(isset($_POST["trimite"]))
+{
+echo "<hr width=500 size=30 align=left color=blue>";
+
+$n=$_POST["n"];
+
+$b1=$_POST["Q1"];
+$b2=$_POST["Q2"];
+$b3=$_POST["Q3"];
+$b4=$_POST["Q4"];
+$b5=$_POST["Q5"];
+
+
+if(!$n || !$b1 || !$b2 || !$b3 || !$b4 || !$b5)
+echo "Zone incomplete";
+else
+{
+echo "nume: $n<br>";
+$s=0;
+if($b1==1)
+$s=$s+1;
+if($b2==4)
+$s=$s+1;
+if($b3==3)
+$s=$s+1;
+if($b4==3)
+$s=$s+1;
+if($b5==5)
+$s=$s+1;
+echo "Punctajul tau este $s";
+}
+?>
+}
+
 	</body>
 	</html>
